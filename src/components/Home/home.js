@@ -9,7 +9,7 @@ export default class Home extends React.Component {
                 <span className="logo" style={logo}></span> 
                 <div className="title">
                 <h1>Начало</h1>    
-                </div>    
+                </div>
             </div>  
         );
     }
