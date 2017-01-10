@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './navbar';
 import Logo from './logo';
 
-export default class Home extends React.Component {
+export default class Shop extends React.Component {
     render() {
         return (
             <div>
@@ -11,9 +11,12 @@ export default class Home extends React.Component {
                     <Logo />
                 </div>
                 <div className="title">
-                    <h1>Начало</h1>
+                    <h1>Магазин</h1>
                 </div>
-                <div className="home-container">
+                <div>
+                    <Navbar />
+                </div>
+                <div className="container">
                     <div className="content">
                     </div>
                 </div>

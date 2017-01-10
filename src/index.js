@@ -7,13 +7,21 @@ import createHistory from 'history/createBrowserHistory';
 import Home from './components/Pages/home';
 import App from './components/app';
 import About from './components/Pages/about';
+import VirtualReality from './components/Pages/virtualReality';
+import Shop from './components/Pages/shop';
+import Services from './components/Pages/services';
+import Contacts from './components/Pages/contacts';
 
 
 const app = document.getElementById('app');
 ReactDOM.render(
     <Router history={hashHistory} >
         <Route path="/" component={App}/>
-        <Route path="about" component={About}/>
+        <Route path="about" component={About} />
+        <Route path="virtualReality" component={VirtualReality} />
+        <Route path="shop" component={Shop} />
+        <Route path="services" component={Services} />
+        <Route path="contacts" component={Contacts} />
     </Router >, app
 );
 
