@@ -21,7 +21,7 @@ body{
     -webkit-font-smoothing: antialiased;
     color: #555F61;
     -webkit-tap-highlight-color: transparent;
-    font-size: 1.5em;
+    font-size: 16px;
     text-shadow: 0 1px 2px #222;
     background: transparent url("../../img/VisionBackground-4.jpg");
     background-attachment:fixed;
@@ -54,12 +54,9 @@ li a {
     text-align: center;
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
-li a:hover:not(.active) {
+
+li a:hover {
     background-color: #555;
     color: white;
 }
@@ -88,18 +85,18 @@ li a:hover:not(.active) {
     position: absolute;
     width: 15%;
     top: 2%;
-    left: 62%;
+    left: 65%;
     font-style: italic;
     font-weight: normal;
     line-height: 48px;
+    color: #4CAF50;
     text-align: justify;
 }
 
 .container{
-    position: absolute;
-    width: 57%;
-    top: 17.5%;
-    left: 28%;
+    position: absolute; 
+    width: 70%;
+    left: 15%;
     height: 640px;
     background-color:rgba(235,240,250,0.9);
     z-index: 2;
@@ -108,11 +105,14 @@ li a:hover:not(.active) {
 .navbar{
     position: absolute;
     width: 0;
-    left: 15%;
+    margin: 20px;
+    margin-top: 120px;
     z-index: 1;
 }
 
-.content{
-    padding: 90px;
+.content{  
+    position: relative;
+    margin-left: 190px;  
+    padding:75px;    
     text-align: justify;
 }
