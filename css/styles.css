@@ -320,6 +320,7 @@ p{
     .home-content a {
         display: block;
         color: black;
+        left:0;
         padding: 12px 16px;
         text-decoration: none;
     }
@@ -377,6 +378,7 @@ p{
         display: none;
         position: absolute;
         min-width: 160px;
+        left:0;
         top:36px;
     }
 
